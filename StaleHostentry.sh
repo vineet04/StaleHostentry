@@ -28,7 +28,7 @@ cat /tmp/ping_response | grep "not known" | awk '{print $2}' | cut -d : -f1 >> /
 cat /tmp/host-not-responding.txt | grep -i "ping statistics"| cut -d " " -f2 >> /tmp/CompleteListofHostNotfound.txt
 
 
-# Delete hosts based on the ping response result or base on \
+# Delete hosts based on the ping response result Or base on \
 #"Name or service not known or 100% packet loss" and delete these hosts using hammer command
 
 #For test/dry-run before removing Host, following hammer command can be used. Note, to uncomment this command and comment the command with delete option, before executing script.
