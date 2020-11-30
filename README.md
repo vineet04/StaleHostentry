@@ -1,2 +1,2 @@
 # StaleHostentry
-Removal of decomissioned host  from Red Hat Satellite.
+Removal of decomissioned hosts  from Red Hat Satellite.
